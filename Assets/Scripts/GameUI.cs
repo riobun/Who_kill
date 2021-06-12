@@ -68,4 +68,9 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void toOver()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
