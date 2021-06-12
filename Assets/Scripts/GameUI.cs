@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
@@ -38,5 +39,33 @@ public class GameUI : MonoBehaviour
     public void disactiveScene()
     {
         sceneDislay.SetActive(false);
+    }
+
+    public void toHospital()
+    {
+        SceneManager.LoadScene(6);      
+    }
+
+    public void toDIDI()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void toLi()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void toDinnerHall()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void toBoss()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void toLab()
+    {
+        SceneManager.LoadScene(4);
     }
 }
