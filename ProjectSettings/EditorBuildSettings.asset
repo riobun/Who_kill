@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Low Poly Western Saloon/Demo Scene/Over Scene.unity
+    guid: bf5b929c3b6e3e6409a74c22de9dc0af
+  - enabled: 1
+    path: Assets/Low Poly Western Saloon/Demo Scene/Dinnerhall Scene.unity
+    guid: 5d5471248510e5945a95df196df0ba75
+  - enabled: 1
+    path: Assets/Low Poly Western Saloon/Demo Scene/Dialog Scene.unity
+    guid: a3fbbd394a8ff174a9fb6143e1609f00
+  - enabled: 1
+    path: Assets/Furniture_ges1/MrLi scene.unity
+    guid: 634c41117f48a1940933d58845b6f252
+  - enabled: 1
+    path: Assets/morgue scene/morgue.unity
+    guid: 845128cf95f90184697fffb609346de8
+  - enabled: 1
+    path: Assets/Soja Exiles/Bar & Liquor Cabinets/didi scene.unity
+    guid: 5192fb7ee619ba3438fa03702e516cd4
+  - enabled: 1
+    path: Assets/Soja Exiles/Hospital Medical Office Modular/Scenes/Structure_01.unity
+    guid: 1eb222d2422a6ea4993c5bdab67064f0
+  - enabled: 1
+    path: Assets/DevDen Arch Viz Scotland/Scenes/ArchViz.unity
+    guid: 5d9a04077777e2741aa75a554f7ee3fb
   m_configObjects: {}
