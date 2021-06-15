@@ -17,5 +17,6 @@ public class bagItemInfo : MonoBehaviour
             return;
         }
         this.item = item;
+        this.name.text = this.item.name;
     }
 }
