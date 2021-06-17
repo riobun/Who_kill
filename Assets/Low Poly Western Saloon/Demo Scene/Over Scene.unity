@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44859195, g: 0.49487418, b: 0.55542886, a: 1}
+  m_IndirectSpecularColor: {r: 0.4485923, g: 0.49487436, b: 0.55543, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -22894,19 +22894,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -47.33333, y: 27.166687}
+  scrollPos: {x: 1116.0919, y: 462.13156}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 323.66666
-  zoom: 1
+  blockViewHeight: 303.75
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1112703736}
+  selectedCommands:
+  - {fileID: 1112703731}
   variables: []
   description: 
   stepPause: 0
@@ -22934,7 +22936,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161
     y: 150
-    width: 62
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22961,7 +22963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64
     y: 143
-    width: 62
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23063,7 +23065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u6E38\u620F\u7ED3\u675F\u4E86\uFF0C\u8BF7\u56DE\u7B54\u4EE5\u4E0B\u95EE\u9898"
+  storyText: "\u6E38\u620F\u8FDB\u5165\u6700\u540E\u9636\u6BB5\uFF0C\u8BF7\u56DE\u7B54\u4EE5\u4E0B\u95EE\u9898"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -23107,7 +23109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 69
-    width: 98
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23212,7 +23214,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25
     y: 221
-    width: 122
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23317,7 +23319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37
     y: 361
-    width: 86
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23344,7 +23346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 147
     y: 320
-    width: 86
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23371,7 +23373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16
     y: 314
-    width: 86
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23440,7 +23442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80
     y: 450
-    width: 72
+    width: 69.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23486,7 +23488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179
     y: 433
-    width: 65.33333
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23591,7 +23593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: "\u5F88\u9057\u61BE\uFF0C\u672C\u5C40\u4F60\u7684\u5F97\u5206\u662F0\u5206\u3002"
+  storyText: "\u5F88\u9057\u61BE\uFF0C\u672C\u5C40\u4F60\u7684\u5F97\u5206\u662F10\u5206\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
