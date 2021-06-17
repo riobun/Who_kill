@@ -8,6 +8,10 @@ public class GameUI : MonoBehaviour
 {
     public GameObject bookDisplay;
     public GameObject sceneDislay;
+    public GameObject clueDislay;
+    //public Button itemButton;
+    //public GameObject allItems;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +23,12 @@ public class GameUI : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void test()
+    {
+        //NewItemManager.Instance.loadItemConfig();
+        //GameObject go = GameObject.Instantiate(this.itemButton.gameObject, this.allItems.transform);
     }
 
     public void activeBook()
@@ -39,6 +49,16 @@ public class GameUI : MonoBehaviour
     public void disactiveScene()
     {
         sceneDislay.SetActive(false);
+    }
+
+    public void activeClue()
+    {
+        clueDislay.SetActive(true);
+    }
+
+    public void disactiveclue()
+    {
+        clueDislay.SetActive(false);
     }
 
     public void toHospital()
