@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class magazine : MonoBehaviour
+public class ExperimentalProjectBook : MonoBehaviour
 {
     private void OnMouseDown()
     {

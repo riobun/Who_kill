@@ -9,14 +9,15 @@ public class GameUI : MonoBehaviour
     public GameObject bookDisplay;
     public GameObject sceneDislay;
     public GameObject clueDislay;
-    //public Button itemButton;
-    //public GameObject allItems;
+    public GameObject truthDisplay;
 
+    private List<bagItem> bagItemList;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        NewItemManager.Instance.loadItemConfig();
+        this.bagItemList = NewItemManager.Instance.bagItemList;
     }
 
     // Update is called once per frame
@@ -39,6 +40,16 @@ public class GameUI : MonoBehaviour
     public void disactiveBook()
     {
         bookDisplay.SetActive(false);
+    }
+
+    public void activeTruth()
+    {
+        truthDisplay.SetActive(true);
+    }
+
+    public void disactiveTruth()
+    {
+        truthDisplay.SetActive(false);
     }
 
     public void activeScene()
@@ -92,5 +103,20 @@ public class GameUI : MonoBehaviour
     public void toOver()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void gameOver()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+        //Application.Quit();
+    }
+
+    public List<string> findClue(int id)
+    {
+        this.bagItemList[id - 1].isFind = 1;
+        List<string> itemInfo = new List<string>();
+        itemInfo.Add(this.bagItemList[id - 1].name);
+        itemInfo.Add(this.bagItemList[id - 1].desc);
+        return itemInfo;
     }
 }
