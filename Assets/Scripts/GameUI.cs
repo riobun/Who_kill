@@ -8,6 +8,10 @@ public class GameUI : MonoBehaviour
 {
     public GameObject bookDisplay;
     public GameObject sceneDislay;
+    public GameObject clueDislay;
+    public GameObject truthDisplay;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +25,12 @@ public class GameUI : MonoBehaviour
         
     }
 
+    public void test()
+    {
+        //NewItemManager.Instance.loadItemConfig();
+        //GameObject go = GameObject.Instantiate(this.itemButton.gameObject, this.allItems.transform);
+    }
+
     public void activeBook()
     {
         bookDisplay.SetActive(true);
@@ -31,6 +41,16 @@ public class GameUI : MonoBehaviour
         bookDisplay.SetActive(false);
     }
 
+    public void activeTruth()
+    {
+        truthDisplay.SetActive(true);
+    }
+
+    public void disactiveTruth()
+    {
+        truthDisplay.SetActive(false);
+    }
+
     public void activeScene()
     {
         sceneDislay.SetActive(true);
@@ -39,6 +59,16 @@ public class GameUI : MonoBehaviour
     public void disactiveScene()
     {
         sceneDislay.SetActive(false);
+    }
+
+    public void activeClue()
+    {
+        clueDislay.SetActive(true);
+    }
+
+    public void disactiveclue()
+    {
+        clueDislay.SetActive(false);
     }
 
     public void toHospital()
@@ -72,5 +102,11 @@ public class GameUI : MonoBehaviour
     public void toOver()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void gameOver()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+        //Application.Quit();
     }
 }
