@@ -11,12 +11,13 @@ public class GameUI : MonoBehaviour
     public GameObject clueDislay;
     public GameObject truthDisplay;
 
-
+    private List<bagItem> bagItemList;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        NewItemManager.Instance.loadItemConfig();
+        this.bagItemList = NewItemManager.Instance.bagItemList;
     }
 
     // Update is called once per frame
@@ -108,5 +109,14 @@ public class GameUI : MonoBehaviour
     {
         UnityEditor.EditorApplication.isPlaying = false;
         //Application.Quit();
+    }
+
+    public List<string> findClue(int id)
+    {
+        this.bagItemList[id - 1].isFind = 1;
+        List<string> itemInfo = new List<string>();
+        itemInfo.Add(this.bagItemList[id - 1].name);
+        itemInfo.Add(this.bagItemList[id - 1].desc);
+        return itemInfo;
     }
 }
