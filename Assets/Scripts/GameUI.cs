@@ -9,8 +9,8 @@ public class GameUI : MonoBehaviour
     public GameObject bookDisplay;
     public GameObject sceneDislay;
     public GameObject clueDislay;
-    //public Button itemButton;
-    //public GameObject allItems;
+    public GameObject truthDisplay;
+
 
 
     // Start is called before the first frame update
@@ -39,6 +39,16 @@ public class GameUI : MonoBehaviour
     public void disactiveBook()
     {
         bookDisplay.SetActive(false);
+    }
+
+    public void activeTruth()
+    {
+        truthDisplay.SetActive(true);
+    }
+
+    public void disactiveTruth()
+    {
+        truthDisplay.SetActive(false);
     }
 
     public void activeScene()
@@ -92,5 +102,11 @@ public class GameUI : MonoBehaviour
     public void toOver()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void gameOver()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+        //Application.Quit();
     }
 }
