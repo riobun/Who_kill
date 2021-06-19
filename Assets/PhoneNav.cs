@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SmartPhone : MonoBehaviour
+public class PhoneNav : MonoBehaviour
 {
     public Image panel;
     public Text title;
@@ -19,7 +19,7 @@ public class SmartPhone : MonoBehaviour
     public void OnMouseDown()
     {
         //16代表本线索的id，在Assets/config/item文件中查看每个线索的id
-        this.clueInfo = GameObject.Find("Canvas").GetComponent<GameUI>().findClue(4);
+        this.clueInfo = GameObject.Find("Canvas").GetComponent<GameUI>().findClue(6);
         this.title.text = this.clueInfo[0];
         this.detail.text = this.clueInfo[1];
 
@@ -31,5 +31,4 @@ public class SmartPhone : MonoBehaviour
     {
 
     }
- 
 }
