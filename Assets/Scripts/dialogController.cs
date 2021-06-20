@@ -9,6 +9,7 @@ public class dialogController : MonoBehaviour
 {
     public Flowchart flowchart;
     public GameObject start;
+    public GameObject canvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,9 @@ public class dialogController : MonoBehaviour
         if (flowchart.GetBooleanVariable("start"))
         {
             start.SetActive(false);
+            canvas.SetActive(false);
             flowchart.SetBooleanVariable("start", false);
+
         }
         if (flowchart.GetBooleanVariable("next"))
         {            

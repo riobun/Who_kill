@@ -10,6 +10,7 @@ public class PhoneNav : MonoBehaviour
     public Text detail;
 
     private List<string> clueInfo;
+    
     // Start is called before the first frame update
     void Start()
     {

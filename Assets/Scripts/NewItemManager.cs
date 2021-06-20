@@ -25,7 +25,6 @@ public class NewItemManager
         {
             this.bagItemList = new List<bagItem>();
         }
-        Debug.Log(Application.dataPath);
         this.itemConfig = JsonMapper.ToObject(File.ReadAllText(Application.dataPath + "/config/item.json",Encoding.GetEncoding("GB2312")));
 
         this.decodeJson();

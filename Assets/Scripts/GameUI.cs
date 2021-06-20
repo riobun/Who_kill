@@ -12,18 +12,36 @@ public class GameUI : MonoBehaviour
     public GameObject truthDisplay;
 
     private List<bagItem> bagItemList;
+    private bool findLab;
 
     // Start is called before the first frame update
     void Start()
     {
         NewItemManager.Instance.loadItemConfig();
         this.bagItemList = NewItemManager.Instance.bagItemList;
+        //findLab = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        GameObject lab1 = sceneDislay.transform.Find("labButton").gameObject;
+        if (!lab1.activeSelf)
+        {
+            lab1.SetActive(true);
+        }
+        GameObject lab2 = clueDislay.transform.Find("right/toggleGroup/lab").gameObject;
+        if (!lab2.activeSelf)
+        {
+            lab2.SetActive(true);
+        }
+        if (findLab)
+        {}
+    }
+
+    public void modifyFindLab()
+    {
+        findLab = true;
     }
 
     public void test()
