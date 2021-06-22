@@ -10,11 +10,7 @@ public class Bag : MonoBehaviour
     public Text detail;
 
     private List<string> clueInfo;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     public void OnMouseDown()
     {
@@ -24,11 +20,5 @@ public class Bag : MonoBehaviour
         this.detail.text = this.clueInfo[1];
 
         panel.gameObject.SetActive(true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

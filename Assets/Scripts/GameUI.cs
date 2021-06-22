@@ -19,7 +19,6 @@ public class GameUI : MonoBehaviour
     {
         NewItemManager.Instance.loadItemConfig();
         this.bagItemList = NewItemManager.Instance.bagItemList;
-        //findLab = false;
     }
 
     // Update is called once per frame
@@ -35,19 +34,11 @@ public class GameUI : MonoBehaviour
         {
             lab2.SetActive(true);
         }
-        if (findLab)
-        {}
     }
 
     public void modifyFindLab()
     {
         findLab = true;
-    }
-
-    public void test()
-    {
-        //NewItemManager.Instance.loadItemConfig();
-        //GameObject go = GameObject.Instantiate(this.itemButton.gameObject, this.allItems.transform);
     }
 
     public void activeBook()

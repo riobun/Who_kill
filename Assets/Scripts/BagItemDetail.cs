@@ -16,17 +16,4 @@ public class BagItemDetail : MonoBehaviour
         this.title.text = item.name;
         this.desc.text = item.desc;
     }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
