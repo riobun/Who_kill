@@ -27823,6 +27823,107 @@ Transform:
   m_Father: {fileID: 1614044879}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1056593893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100338, guid: 49f2055d53eeb4e5a92af590a44bddee, type: 3}
+  m_PrefabInstance: {fileID: 583708420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1056593894
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056593893}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1057271651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 425294, guid: 2441c340982556c4a9e7063ee8d009e0, type: 3}
@@ -50868,7 +50969,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1646151916}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 8dedff87d4a5af141a9077b02cd2fe46, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: c8243eff0afd59c478519d8d0ed63f47, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -50884,6 +50985,34 @@ PlayableDirector:
     value: {fileID: 1504556652}
   - key: {fileID: 7554432046628479863, guid: 8dedff87d4a5af141a9077b02cd2fe46, type: 2}
     value: {fileID: 1504556652}
+  - key: {fileID: -2594978850866405861, guid: c8243eff0afd59c478519d8d0ed63f47, type: 2}
+    value: {fileID: 1056593894}
+  - key: {fileID: 7936270361697401622, guid: eb28a20661ab61143a4c0eb16a0395c9, type: 2}
+    value: {fileID: 1056593894}
+  - key: {fileID: 5229745753222322603, guid: 4bdce829c164bf3469f40e31c5c74490, type: 2}
+    value: {fileID: 1056593894}
+  - key: {fileID: 2971659416625713197, guid: 76416abcc92c11349a33c03595bbebdf, type: 2}
+    value: {fileID: 1056593894}
+  - key: {fileID: -8700324407793487179, guid: 2d11a5e0f7f139e44887a514504bf7cc, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7022270008294276598, guid: 2d11a5e0f7f139e44887a514504bf7cc, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4624674511171340063, guid: 2d11a5e0f7f139e44887a514504bf7cc, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8147660132512964495, guid: fd1e957c7853d11428fec975155b10ff, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -7858170665736870645, guid: fd1e957c7853d11428fec975155b10ff, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2352199124784593448, guid: 3c643c5a341a27547aca6ed8daa1dbb1, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3620723048463524644, guid: 3c643c5a341a27547aca6ed8daa1dbb1, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6841131882737953156, guid: 3c643c5a341a27547aca6ed8daa1dbb1, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5480752427192504906, guid: 77f3a0b93bdaa0241acd3fdc9ac14537, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8371337187389515105, guid: 77f3a0b93bdaa0241acd3fdc9ac14537, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1646151918
