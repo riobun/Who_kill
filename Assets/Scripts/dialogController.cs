@@ -10,6 +10,7 @@ public class dialogController : MonoBehaviour
     public Flowchart flowchart;
     public GameObject start;
     public GameObject canvas;
+    public GameObject player;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +20,12 @@ public class dialogController : MonoBehaviour
             start.SetActive(false);
             canvas.SetActive(false);
             flowchart.SetBooleanVariable("start", false);
+
+        }
+        if (flowchart.GetBooleanVariable("occur"))
+        {
+            player.SetActive(true);
+            flowchart.SetBooleanVariable("occur", false);
 
         }
         if (flowchart.GetBooleanVariable("next"))
