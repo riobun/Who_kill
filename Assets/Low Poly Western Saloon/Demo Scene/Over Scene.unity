@@ -28489,11 +28489,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 566.37305, y: 41.68635}
+  scrollPos: {x: 1818.833, y: 484.56393}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6257497
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -28501,7 +28501,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1112703736}
+  - {fileID: 1112703762}
   selectedCommands: []
   variables:
   - {fileID: 1112703770}
@@ -28537,7 +28537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161
     y: 150
-    width: 61.5062
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28564,7 +28564,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64
     y: 143
-    width: 61.5062
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28710,7 +28710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 69
-    width: 96.024796
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28817,7 +28817,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25
     y: 221
-    width: 119.03719
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28922,7 +28922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37
     y: 361
-    width: 84.5186
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28949,7 +28949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 147
     y: 320
-    width: 84.5186
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28976,7 +28976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16
     y: 314
-    width: 84.5186
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29045,7 +29045,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80
     y: 450
-    width: 69.177
+    width: 69.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29095,7 +29095,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179
     y: 433
-    width: 62.784664
+    width: 62.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29323,7 +29323,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.5
     y: 440.7245
-    width: 96.024796
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29378,7 +29378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.61725
     y: 481.92896
-    width: 96.024796
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30687,7 +30687,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1112703784
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30705,7 +30705,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1112703785
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30723,7 +30723,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1112703786
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30741,7 +30741,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1112703787
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30759,7 +30759,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1112703788
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -50969,7 +50969,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1646151916}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: c8243eff0afd59c478519d8d0ed63f47, type: 2}
+  m_PlayableAsset: {fileID: 0}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
