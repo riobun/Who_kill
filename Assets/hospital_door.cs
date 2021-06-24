@@ -15,9 +15,8 @@ public class hospital_door : MonoBehaviour
 
     public void OnMouseDown()
     {
-        //labBtn.SetActive(true);
-        GameObject.Find("Canvas").GetComponent<GameUI>().modifyFindLab();
-        Debug.Log("111111111111111111111111111111111111");
+        
+        LabManager.Instance.findlab = true;
         SceneManager.LoadScene(4);
     }
 
