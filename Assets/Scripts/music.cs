@@ -23,7 +23,7 @@ public class music : MonoBehaviour
     void Update()
     {
         this.scene = SceneManager.GetActiveScene();
-        if (this.scene.buildIndex == 0)
+        if (this.scene.buildIndex == 2)
 
         {
             if (play == true)
